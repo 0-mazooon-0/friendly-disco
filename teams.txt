@@ -8,19 +8,20 @@ Team members:
 7. Shafiq
 8. Waleed
 9. Hany
+10. Abdaallah
 
 Team 1 (Front-End):
 Rafik
 Shafiq
 Waleed
+Hany
+Abdaallah
 
 Team 2 (Back-End):
 Mohamed
 Ahmed
 Mostafa
-
-Team 3 (UI/UX):
 Ziad
 Othman
-Hany
+
 
