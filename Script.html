@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Dashboard | ECU E-Learning</title>
+    <link rel="shortcut icon" href="https://lms.ecueg.com/pluginfile.php?file=%2F1%2Fcore_admin%2Ffavicon%2F64x64%2F1761515232%2FECU-Logo%20%281%29.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Dashboard | ECU E-Learning" />
+<link rel="stylesheet" type="text/css" href="https://lms.ecueg.com/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://lms.ecueg.com/theme/styles.php?theme=lambda2&amp;rev=1761515232_1&amp;type=all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/lms.ecueg.com","apibase":"https:\/\/lms.ecueg.com\/r.php\/api","homeurl":{},"sesskey":"HKuyhFAoxv","sessiontimeout":"28800","sessiontimeoutwarning":"1200","themerev":"1761515232","slasharguments":0,"theme":"lambda2","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1761515232","admin":"admin","svgicons":true,"usertimezone":"Africa\/Cairo","language":"en","courseId":1,"courseContextId":2,"contextid":1372,"contextInstanceId":1361,"langrev":1761515232,"templaterev":"1761515232","siteId":1,"userId":1361,"developerdebug":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":true,"base":"https:\/\/lms.ecueg.com\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/lms.ecueg.com\/theme\/yui_combo.php?","combine":true,"filter":"RAW","insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/lms.ecueg.com\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/lms.ecueg.com\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/lms.ecueg.com\/theme\/yui_combo.php?m\/1761515232\/","combine":true,"comboBase":"https:\/\/lms.ecueg.com\/theme\/yui_combo.php?","ext":false,"root":"m\/1761515232\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":"DEBUG","modules":{"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}},"gallery":{"name":"gallery","base":"https:\/\/lms.ecueg.com\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/lms.ecueg.com\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1761515232\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/lms.ecueg.com\/lib\/javascript.php?rev=1761515232&jsfile=%2Frepository%2Ffilepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/lms.ecueg.com\/lib\/javascript.php?rev=1761515232&jsfile=%2Fcomment%2Fcomment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-my-index" class="limitedwidth format-site  path-my chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam lms-ecueg-com pagelayout-mydashboard course-1 context-1372 theme lambda m-50 layout-full blockstyle-01 page-header-style-01 header-style-2">
+<div class="wrapper-lambda-outer">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper-outer">
+
+    <div>
+    <a class="visually-hidden-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="https://lms.ecueg.com/lib/javascript.php?rev=1761515232&amp;jsfile=%2Flib%2Fpolyfills%2Fpolyfill.js"></script>
+<script src="https://lms.ecueg.com/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple.js"></script><script src="https://lms.ecueg.com/lib/jquery/jquery-3.7.1.js"></script>
+<script src="https://lms.ecueg.com/lib/javascript.php?rev=1761515232&amp;jsfile=%2Flib%2Fjavascript-static.js"></script>
+<script src="https://lms.ecueg.com/theme/javascript.php?theme=lambda2&amp;rev=1761515232&amp;type=head"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+    
+        <div  class="drawer drawer-right d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-blocks" data-preference="drawer-open-block" data-state="show-drawer-right" data-forceopen="" data-close-on-resize="0">
+    <div class="drawerheader">
+        <button
+            class="btn btn-icon drawertoggle hidden"
+            data-toggler="drawers"
+            data-action="closedrawer"
+            data-target="theme_boost-drawers-blocks"
+            data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            title="Close block drawer"
+        >
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true" ></i>
+        </button>
+        
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                        <section class="d-print-none" aria-label="Blocks">
+                    <div class="block-pos-desc">
+                        <span>Side Block Position</span>
+                    </div>
+                    
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1" aria-labelledby="side-pre-block-region-heading"><h2 class="visually-hidden" id="side-pre-block-region-heading">Blocks</h2><a href="#sb-1" class="visually-hidden-focusable">Skip Recently accessed items</a>
+
+<section id="inst5205"
+     class=" block_recentlyaccesseditems block  card mb-3"
+     role="region"
+     data-block="recentlyaccesseditems"
+     data-instance-id="5205"
+          aria-labelledby="instance-5205-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h3 id="instance-5205-header" class="h5 card-title d-inline">Recently accessed items</h3>
+
+
+        <div class="card-text content mt-3">
+            <div id="block-recentlyaccesseditems-690df2be01e7c690df2be01e7e1" class="block-recentlyaccesseditems block-cards" data-region="recentlyaccesseditems">
+    <div class="container-fluid p-0">
+        <div id="recentlyaccesseditems-view-690df2be01e7c690df2be01e7e1"
+             data-region="recentlyaccesseditems-view"
+             data-noitemsimgurl="https://lms.ecueg.com/theme/image.php?theme=lambda2&amp;amp;component=block_recentlyaccesseditems&amp;amp;rev=1761515232&amp;amp;image=items">
+            <div data-region="recentlyaccesseditems-view-content">
+                <div data-region="recentlyaccesseditems-loading-placeholder">
+                    <div class="card mb-1">
+                        <div class="card-body p-2 m-1">
+                            <div class="d-flex flex-row mw-100 align-items-center">
+                                <div class="bg-pulse-grey rounded-circle" style="height: 40px; width: 40px;"></div>
+                                <div class="ps-2" style="flex: 1;">
+                                    <div class="bg-pulse-grey w-100" style="height: 1rem;"></div>
+                                    <div class="bg-pulse-grey w-75 mt-1" style="height: 0.8rem;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    <div class="card mb-1">
+                        <div class="card-body p-2 m-1">
+                            <div class="d-flex flex-row mw-100 align-items-center">
+                                <div class="bg-pulse-grey rounded-circle" style="height: 40px; width: 40px;"></div>
+                                <div class="ps-2" style="flex: 1;">
+                                    <div class="bg-pulse-grey w-100" style="height: 1rem;"></div>
+                                    <div class="bg-pulse-grey w-75 mt-1" style="height: 0.8rem;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    <div class="card mb-1">
+                        <div class="card-body p-2 m-1">
+                            <div class="d-flex flex-row mw-100 align-items-center">
+                                <div class="bg-pulse-grey rounded-circle" style="height: 40px; width: 40px;"></div>
+                                <div class="ps-2" style="flex: 1;">
+                                    <div class="bg-pulse-grey w-100" style="height: 1rem;"></div>
+                                    <div class="bg-pulse-grey w-75 mt-1" style="height: 0.8rem;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    <div class="card mb-1">
+                        <div class="card-body p-2 m-1">
+                            <div class="d-flex flex-row mw-100 align-items-center">
+                                <div class="bg-pulse-grey rounded-circle" style="height: 40px; width: 40px;"></div>
+                                <div class="ps-2" style="flex: 1;">
+                                    <div class="bg-pulse-grey w-100" style="height: 1rem;"></div>
+                                    <div class="bg-pulse-grey w-75 mt-1" style="height: 0.8rem;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    <div class="card mb-1">
+                        <div class="card-body p-2 m-1">
+                            <div class="d-flex flex-row mw-100 align-items-center">
+                                <div class="bg-pulse-grey rounded-circle" style="height: 40px; width: 40px;"></div>
+                                <div class="ps-2" style="flex: 1;">
+                                    <div class="bg-pulse-grey w-100" style="height: 1rem;"></div>
+                                    <div class="bg-pulse-grey w-75 mt-1" style="height: 0.8rem;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span></aside>
+                </section>
+
+    </div>
+</div>
+
+
+
+<div id="page" data-region="mainpage" data-usertour="scroller" class="drawers  drag-container">
+<div id="page-top"></div>
+<div class="wrapper-lambda">
+
+
+
+	    
+	    <header id="main-header" class="clearfix top socials">
+	    
+	    	
+	    </header>
+	    
+	    <nav class="lambda-nav style-2 navbar fixed-top navbar-expand" aria-label="Site navigation">
+	        <a href="https://lms.ecueg.com/my/courses.php" class="navbar-brand d-flex align-items-center m-0 me-4 p-0 aabtn">
+	                <img src="https://lms.ecueg.com/pluginfile.php?file=%2F1%2Fcore_admin%2Flogocompact%2F300x300%2F1761515232%2FECU-Logo%20%281%29.png" class="logo me-1" alt="ECU E-Learning">
+	        </a>
